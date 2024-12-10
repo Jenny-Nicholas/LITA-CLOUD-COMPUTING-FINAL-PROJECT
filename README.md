@@ -41,3 +41,9 @@ Inbound rules:
 Outbound rules: 
 Allow HTTP(port 80) and HTTPS(port 443) traffic from the internet.
 
+
+# SCREENSHOTS
+C:\Users\HP\Desktop\EC2.PNG
+
+
+C:\Users\HP\Desktop\VPC.PNG
