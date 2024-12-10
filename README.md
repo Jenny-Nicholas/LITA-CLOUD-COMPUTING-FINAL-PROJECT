@@ -13,3 +13,21 @@ Roles and polices created for secure and restricted access to the AWS resources.
 Provides a secure and Isolated network environment for the application
 Configured with Public and private subnets for better security.
 Includes a NAT Gateway to allow outbound internet access for private subnets.
+## Configuration Details
+# VPC Configuration
+VPC CIDR block: 10.0.0.0/16
+# Subnets:
+Public Subnet: 10.0.0.0/20
+Private Subnet: 10.0.128.0/24
+# Internet Gateway
+Attached to the public subnet.
+# NAT Gateway:
+Configured to provide internet access to resources in private subnets
+### EC2 Configuration 
+AMI: Amazon Linux 2
+Instance Type: t2.micro
+Key Pair: My-keypair.pem
+#Security Group:
+Inbound rules: Restrict SSH (port 22) access to your IP addresses only
+Outbound rules: Allow HTTP(port 80) and HTTPS(port 443) traffic from the internet.
+
