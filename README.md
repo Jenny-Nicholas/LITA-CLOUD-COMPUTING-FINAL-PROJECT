@@ -52,4 +52,19 @@ Allow HTTP(port 80) and HTTPS(port 443) traffic from the internet.
 ![EC2](https://github.com/user-attachments/assets/c0115579-4408-4978-99d1-12396bd99728)
 
 
+# ROUTE TABLE
+
+![Route table1](https://github.com/user-attachments/assets/f2ba1360-2e3d-423e-8c89-cab192080601)
+
+
+# SUBNET CONFIGURATION
+
+![Public1](https://github.com/user-attachments/assets/cb87aa28-d288-4571-8c23-a614fba968ec)
+
+
+![Private Subnet1](https://github.com/user-attachments/assets/ac6f3a68-ccc6-4ec2-8917-580b7f6a0511)
+
+
+
+
 
