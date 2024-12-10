@@ -43,7 +43,11 @@ Allow HTTP(port 80) and HTTPS(port 443) traffic from the internet.
 
 
 # SCREENSHOTS
-C:\Users\HP\Desktop\EC2.PNG
+
+![vpc1](https://github.com/user-attachments/assets/98921d45-6e6c-4100-a7e5-447afc4e43be)
 
 
-C:\Users\HP\Desktop\VPC.PNG
+![EC2](https://github.com/user-attachments/assets/c0115579-4408-4978-99d1-12396bd99728)
+
+
+
