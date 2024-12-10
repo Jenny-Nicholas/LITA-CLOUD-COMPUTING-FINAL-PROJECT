@@ -24,18 +24,19 @@ Attached to the public subnet.
 # NAT Gateway:
 Configured to provide internet access to resources in private subnets
 ### EC2 Configuration 
-#AMI:
+# AMI:
  Amazon Linux 2
 
-#Instance Type: 
+# Instance Type: 
 t2.micro
 
-#Key Pair:
+# Key Pair:
  My-keypair.pem
 
-#Security Group:
+# Security Group:
 Inbound rules:
  Restrict SSH (port 22) access to your IP addresses only
+
 
 Outbound rules: 
 Allow HTTP(port 80) and HTTPS(port 443) traffic from the internet.
