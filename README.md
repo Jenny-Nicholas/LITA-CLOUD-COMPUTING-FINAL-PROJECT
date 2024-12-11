@@ -18,12 +18,14 @@ Includes a NAT Gateway to allow outbound internet access for private subnets.
 VPC CIDR block: 10.0.0.0/16
 # Subnets:
 Public Subnet: 10.0.0.0/20
+
 Private Subnet: 10.0.128.0/24
+
 # Internet Gateway
 Attached to the public subnet.
 # NAT Gateway:
 Configured to provide internet access to resources in private subnets
-### EC2 Configuration 
+## EC2 Configuration 
 # AMI:
  Amazon Linux 2
 
